@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup}
-SciViews::R
+SciViews::R("model", lang = "fr")
 ```
 
 ## Introduction
@@ -17,15 +17,21 @@ SciViews::R
 
 ### Description
 
-<!--% Importez, remaniez (renommer les variables, ajouter les labels et unités: LOG1ON est sans unités -nombre de bactéries en log10-, t est en jours). Ensuite décrivez ces données numériquement à l'aide du graphique le plus adéquat -->
+<!--% Importez, remaniez (renommer les variables, ajouter les labels et unités: LOG1ON est sans unités -nombre de bactéries en log10-, t est en jours). Ensuite décrivez ces données numériquement et à l'aide du graphique le plus adéquat -->
 
 ```{r import}
 growth <- ___
 ```
 
-<!--% Décrivez ces données à l'aide du graphique le plus adéquat-->
+<!--% Décrivez ces données -->
 
-```{r plot }
+```{r describe}
+
+```
+
+<!--% Effectuez le graphique le plus adéquat ici -->
+
+```{r plot}
 
 ```
 
@@ -33,7 +39,7 @@ growth <- ___
 
 ### Modélisation
 
-<!--% Essayez plusieurs modèles (au moins trois), comparez-les entre eux et décidez lequel est le plus adéquat. Ecrivez l'équation mathématique associée à chaque modèle. Interpétez chacun de vos résultats. -->
+<!--% Essayez plusieurs modèles (au moins trois), comparez-les entre eux et décidez lequel est le plus adéquat. Ecrivez l'équation paramétrée de chaque modèle. Interprétez chacun de vos résultats. -->
 
 ## Discussion et conclusions
 
