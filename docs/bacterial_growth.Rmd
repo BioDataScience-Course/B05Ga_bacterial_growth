@@ -1,0 +1,32 @@
+---
+title: "Croissance bactérienne"
+author: "___"
+date: "___"
+output: html_document
+---
+
+```{r setup}
+SciViews::R
+```
+
+## Introduction
+
+<!--% Vous savez quoi mettre ici...--> 
+
+## Analyse
+
+### Description
+
+<!--% Importez, remaniez (renommer les variables, ajouter les labels et unités: LOG1ON est sans unités -nombre de bactéries en log10-, t est en jours). Ensuite décrivez ces données numériquement et à l'aide du graphique le plus adéquat -->
+
+```{r import}
+growth <- ___
+```
+
+### Modélisation
+
+<!--% Essayez plusieurs modèles (au moins trois), comparez-les entre eux et décidez lequel est le plus adéquat. -->
+
+## Discussion et conclusions
+
+<!--% Explicitez ici votre choix du meilleur modèle et pourquoi c'est celui-là -->
