@@ -11,21 +11,29 @@ SciViews::R
 
 ## Introduction
 
-<!--% Vous savez quoi mettre ici...--> 
+<!--% Vous savez quoi mettre ici...-->
 
 ## Analyse
 
 ### Description
 
-<!--% Importez, remaniez (renommer les variables, ajouter les labels et unités: LOG1ON est sans unités -nombre de bactéries en log10-, t est en jours). Ensuite décrivez ces données numériquement et à l'aide du graphique le plus adéquat -->
+<!--% Importez, remaniez (renommer les variables, ajouter les labels et unités: LOG1ON est sans unités -nombre de bactéries en log10-, t est en jours). Ensuite décrivez ces données numériquement à l'aide du graphique le plus adéquat -->
 
 ```{r import}
 growth <- ___
 ```
 
+<!--% Décrivez ces données à l'aide du graphique le plus adéquat-->
+
+```{r plot }
+
+```
+
+<!--% Interprétez ce graphique en maximum 2 phrases. -->
+
 ### Modélisation
 
-<!--% Essayez plusieurs modèles (au moins trois), comparez-les entre eux et décidez lequel est le plus adéquat. -->
+<!--% Essayez plusieurs modèles (au moins trois), comparez-les entre eux et décidez lequel est le plus adéquat. Ecrivez l'équation mathématique associée à chaque modèle. Interpétez chacun de vos résultats. -->
 
 ## Discussion et conclusions
 
